@@ -173,14 +173,40 @@ body {
 
 /*CONTENT*/
 
-.sidebar {
-    float: left;
+.box-1 { 
+    width: 100%;
     min-height: 544px;
     height: auto;
-    width: 20%;
-    padding: 12px 6px;
+    float: left;
+    position: relative;
+    right: 58%;
     background-color: #edeef0;
     border-right: 1px solid #c7cacf;
+}
+
+.box-2 {
+    width: 100%;
+    background: #fff;
+    float: left;
+    position: relative;
+    right: 21%;
+    border-right: 1px solid #c7cacf;
+}
+
+.box-3 {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: #edeef0;
+}
+
+.sidebar {
+    width: 21%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    left:79%;
     text-align: center;
 }
 
@@ -191,6 +217,7 @@ body {
 
 .sidebar ul {
     margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 .sidebar ul li {
@@ -198,22 +225,26 @@ body {
     font: 11pt Tahoma;
     color: #424c43;
 }
-
 .content {
-    margin: 0 auto;
-    min-height: 544px;
-    height: auto;
-    width: 57%;
+    width: 58%;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    left:79%;    
+}
+
+.text {
+    padding: 16px;
+    text-align: justify
 }
 
 .news {
-    float: right; 
-    min-height: 544px;
-    height: auto;
-    width: 20%;
-    padding: 12px 6px;
-    background-color: #edeef0;
-    border-left: 1px solid #c7cacf;
+    width: 21%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    left:79%;
     text-align: center;
 }
 
@@ -224,6 +255,7 @@ body {
 
 .news ul {
     margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 .news ul li {
@@ -231,10 +263,5 @@ body {
     font: 11pt Tahoma;
     color: #424c43;
 }
-
-
-
-
-
 
 
